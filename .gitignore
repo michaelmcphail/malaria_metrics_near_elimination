@@ -3,8 +3,6 @@
 /config/config.json
 /config/data_lookup_paper.R
 /config/data_lookup.R
-*.shp
-*.tif
 
 # R specific
 .Rproj.user/
@@ -70,7 +68,7 @@ Thumbs.db
 # Project specific
 *.log
 output/
-data/
+# data/
 *.json
 !config.json
 *.csv
