@@ -6,6 +6,8 @@ Here I provide only the code base. The installation of the necessary dependencie
 
 There are three models: the diffusion network model, the log-Gaussian-Cox model for vulnerability, and the receptivity model. The diffusion network model is written in Python, and the remaining models are written in R. The schematic below illustrates the flow of data and model outputs through the pipeline. The file 'config.json' contains the input and output paths for a given model run. 
 
+The diffusion model here is based of that of that used by Routledge et al. [here](https://www.nature.com/articles/s41598-021-93238-0). The repository for their model can be found here: https://github.com/IzzyRou/spatial_rcs.
+
 Note that for covariate extraction (steps 2 and 5), the paths in configuration_data/data_lookup.R must be updated to point to the correct data, and the lists of covariate names in the gather script must be set. There must be a file path associated with each covariate name in the gather scripts.
 
 ## Running the pipeline
