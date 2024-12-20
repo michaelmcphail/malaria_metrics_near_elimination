@@ -1,0 +1,28 @@
+{
+    "country_name": "Vietnam",
+    "country_iso": "VNM",
+    "country_extent": [101, 110, 7, 24],
+    "surrounding_country_isos": ["KHM", "LAO", "CHN", "THA"],
+    
+    "case_data_base_fn": "./data/test_data/fictional_case_data.csv",
+    "case_data_withRe_fn": "./data/test_data/case_data_withRe.csv",
+    "case_data_withReCovs_fn": "./data/test_data/case_data_withRe_Covs.csv",
+    "case_data_withVulnCovs_fn": "./data/test_data/case_data_withVuln_Covs.csv",
+    
+    "covariate_file_prefix": "./data/test_data/case_data_Covs",
+    "covariate_file_suffix": "_test.csv",
+    
+    "pf_vulnerability_imported_raster_fn": "./data/test_data/imported_Pf_allYears.tif",
+    "pv_vulnerability_imported_raster_fn": "./data/test_data/imported_Pv_allYears.tif",
+    "pf_vulnerability_index_raster_fn": "./data/test_data/index_Pf_allYears.tif",
+    "pv_vulnerability_index_raster_fn": "./data/test_data/index_Pv_allYears.tif",
+    
+    "Re_prediction_min_year": 2019,
+    "Re_prediction_max_year": 2019,
+    "Re_prediction_suffix": "_test.csv",
+    "Re_prediction_pf_prefix": "./data/test_data/Re_prediction_pf_",
+    "Re_prediction_pv_prefix": "./data/test_data/Re_prediction_pv_",
+
+    "image_out_root":"./data/test_data/images/",
+    "image_out_suff":"_test.png"
+}
